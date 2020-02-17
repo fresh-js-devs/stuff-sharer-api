@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGODB_USER": "root",
+    "MONGODB_PASSWORD": "X5ec083uCtq0Aqqk",
+    "MONGODB_DEFAULT_DB": "stuff-sharer",
+    "PORT": "5555"
+  }
+}
