@@ -6,7 +6,7 @@ const compression = require('compression');
 const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+// const https = require('https');
 
 const routes = require('./routes');
 
@@ -18,8 +18,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // SSL/TSL
-const privateKey = fs.readFileSync('server.key');
-const certificate = fs.readFileSync('server.cert');
+// const privateKey = fs.readFileSync('server.key');
+// const certificate = fs.readFileSync('server.cert');
 
 // Cors
 app.use((req, res, next) => {
