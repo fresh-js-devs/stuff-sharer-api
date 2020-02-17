@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production MONGODB_USER=root MONGODB_PASSWORD=Heslo123456 MONGODB_DEFAULT_DB=stuff-sharer PORT=3000 node app.js",
+    "start": "NODE_ENV=production MONGODB_USER=root MONGODB_PASSWORD=X5ec083uCtq0Aqqk MONGODB_DEFAULT_DB=stuff-sharer PORT=3000 node app.js",
     "start-server": "node app.js",
     "start:dev": "nodemon app.js"
   },
